@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - print last digit in random number
+ *
+ * Description: print last digit in random number
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
         int n, num;
@@ -11,7 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-       	num = n%10;
+       	num = n % 10;
 	if (num > 5)
 	         printf("Last digit of %d is %d and is greater than 5\n", n, num);
 	else if (num == 0)
