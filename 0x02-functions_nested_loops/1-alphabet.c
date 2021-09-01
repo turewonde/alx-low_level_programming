@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * Prints_alphabet: in lowercase.
+ * Prints_alphabet:print all alphabets in lowercase.
  *
+ *
+ *Description: they are sorted by default
  * Return: void.
  */
 
