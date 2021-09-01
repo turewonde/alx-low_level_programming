@@ -3,9 +3,7 @@
 /**
  * Print_alphabet - print all alphabets in lowercase.
  *
- *
- *Description: they are sorted by default
- *return void.
+ *Return: void.
  */
 
 void print_alphabet(void)
