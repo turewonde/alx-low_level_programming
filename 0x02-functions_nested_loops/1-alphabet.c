@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_alphabet - in lowercase
  *
@@ -6,6 +7,7 @@
  * 
  * return void
  */
+
 void print_alphabet(void)
 {
 	char lower_letter = 'a';
