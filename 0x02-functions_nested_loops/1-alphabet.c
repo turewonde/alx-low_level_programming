@@ -5,7 +5,7 @@
  *
  *
  *Description: they are sorted by default
- * Return: void.
+ *return void.
  */
 
 void print_alphabet(void)
