@@ -1,0 +1,14 @@
+#includ "main.h"
+
+/**
+ *add - Adds two integers
+ *
+ *Return: the sum of an integer
+ */
+
+int add(int x, int y)
+{
+	int sum = x + y;
+	
+	return (sum);
+}
