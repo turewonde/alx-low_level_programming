@@ -1,4 +1,6 @@
 #include "function_pointers.h"
+#include <stdlib.h>
+
 /**
  *array_iterator - execute afunction pointer on an element of an arry
  *@array: array of integers
