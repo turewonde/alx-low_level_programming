@@ -10,7 +10,7 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	char *wonde;
+	char *dup;
 	int len;
 	list_t *new, *last;
 
@@ -18,7 +18,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (new == NULL)
 		return (NULL);
 
-	wonde = strwonde(str);
+	dup = strdup(str);
 	if (str == NULL)
 	{
 		free(new);
@@ -27,7 +27,8 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	for (len = 0; str[len];)
 		len++;
-	new->str = wonde;
+
+	new->str = dup;
 	new->len = len;
 	new->next = NULL;
 
